@@ -8,7 +8,7 @@ pipeline {
     environment {
         NEXUS_VERSION = "nexus2"
         NEXUS_PROTOCOL = "http"
-        NEXUS_URL = ""http://localhost:8081
+        NEXUS_URL = "http://localhost:8081"
         NEXUS_REPOSITORY = "rishilabs-hosted-release"
         NEXUS_CREDENTIAL_ID = "nexus-user-credentials"
     }
